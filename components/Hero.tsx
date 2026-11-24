@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
 
             <TextGenerateEffect
-              words="Decoding Earth Through Spatial Data & Remote Sensing"
+              words="Turning Spatial Data into Strategic Insights"
               className="text-center lg:text-left text-[34px] sm:text-5xl lg:text-[52px] leading-tight"
             />
 
