@@ -63,7 +63,7 @@ const Hero = () => {
                 />
               </a>
               <a
-                href="/UpdatedResume_AhtshamM.pdf"
+                href="/Ali-Awan-CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex h-12 md:mt-10 items-center justify-center gap-2 rounded-lg border border-white/[0.15] bg-black-200/80 px-6 text-sm font-medium text-white backdrop-blur-md transition-colors hover:border-purple hover:text-purple"
