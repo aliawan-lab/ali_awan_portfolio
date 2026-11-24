@@ -16,8 +16,8 @@ const Approach = () => {
         {/* add des prop */}
         <Card
           title="RS and GIS, for Infra & Utility"
-          icon={<AceternityIcon order="RS and GIS" />}
-          des="Image Processing, Land Use Land Cover Change and impact assessment, Infrastructure Mapping, CAD - BIM Integration."
+          icon={<AceternityIcon order="CAD-BIM-GIS" />}
+          des="Drawing convserion, BIM Modeling, Enterorise Geodatabase for Infra & Utility Mapping."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
