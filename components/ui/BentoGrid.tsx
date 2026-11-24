@@ -15,6 +15,15 @@ const Lottie = dynamic(() => import("react-lottie"), {
     ssr: false,
 });
 
+const techStack = [
+    "Spatial Data Science",
+    "Python",
+    "GeoAI",
+    "ArcGIS APIs",
+    "Machine Learning",
+    "BIM",
+];
+
 export const BentoGrid = ({
     className,
     children,
@@ -61,8 +70,8 @@ export const BentoGridItem = ({
         const text = "ahtshamm214@gmail.com";
         navigator.clipboard.writeText(text);
         setCopied(true);
-      };
-      
+    };
+
     return (
         <div
             className={cn(
@@ -113,7 +122,10 @@ export const BentoGridItem = ({
                     </BackgroundGradientAnimation>
                 )}
                 <div className={cn(
-                    titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10'
+                    titleClassName,
+                    // tech stack box: heading top-left, skills below it
+                    id === 3 && "justify-start",
+                    'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10'
                 )}>
                     <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
                         {description}
@@ -122,40 +134,18 @@ export const BentoGridItem = ({
                         {title}
                     </div>
 
-
-
                     {id === 2 && <GlobeDemo />}
+
                     {id === 3 && (
-                        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-
-                            <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                                {['GIS Development', 'Spatial Data Science', 'GeoAi', 'Machine Learning',]
-                                    .map((item) => (
-                                        <span
-                                            key={item}
-                                            className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                                        >
-                                            {item}
-                                        </span>
-                                    ))}
-                                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                            </div>
-                            <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                            <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                                {['Python', 'ArcGIS APIs', 'Javascript']
-                                    .map((item) => (
-                                        <span
-                                            key={item}
-                                            className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                                        >
-                                            {item}
-                                        </span>
-                                    ))}
-                                
-                            </div>
-
+                        <div className="mt-4 lg:mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-2 lg:gap-3 w-full z-10">
+                            {techStack.map((item) => (
+                                <span
+                                    key={item}
+                                    className="py-2 px-3 text-xs lg:text-sm rounded-lg text-center bg-[#10132E]"
+                                >
+                                    {item}
+                                </span>
+                            ))}
                         </div>
                     )}
 
