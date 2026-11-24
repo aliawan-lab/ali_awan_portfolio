@@ -23,7 +23,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Geospatial Data Analysis and Visualization",
+    title: "Geospatial Data Visualization",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
