@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Muhammad Ali Awan | GIS - CAD - RS Specialist & GIS - CAD - RS Specialist",
     description:
       "GIS - CAD - RS Specialist and Spatial Data Scientist.",
-    images: ["/ahtsham.png"],
+    images: ["/Profile_Picture.PNG"],
   },
 };
 
