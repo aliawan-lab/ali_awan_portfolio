@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       "Transforming the world through geospatial data science, GeoAI, remote sensing, and modern Web GIS.",
     type: "website",
     locale: "en_US",
-    images: ["/ahtsham.png"],
+    images: ["/Profile Picture.PNG"],
   },
   twitter: {
     card: "summary_large_image",
