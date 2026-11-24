@@ -15,7 +15,7 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="RS and GIS, for Infra & Utility"
+          title="CAD/BIM/GIS, for Infra & Utility"
           icon={<AceternityIcon order="CAD BIM GIS" />}
           des="Drawing convserion, BIM Modeling, Enterprise Geodatabase for Infra & Utility Mapping."
         >
