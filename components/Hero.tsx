@@ -49,7 +49,7 @@ const Hero = () => {
             />
 
             <p className="text-center lg:text-left md:tracking-wider mb-6 text-sm md:text-lg text-white-100 max-w-2xl">
-              	Strong Foundation in GIS, Remote Sensing,GIS-CAD-BIM Integration,
+              	Strong Foundation in GIS, Remote Sensing, GIS-CAD-BIM Integration,
 		Spatial Data Science, Infrastructure & Utility Mapping, 
 		Geodatabase Development and Geospatial Analysis.
             </p>
