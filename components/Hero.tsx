@@ -114,7 +114,7 @@ const Hero = () => {
                       Muhammad Ali Awan
                     </p>
                     <p className="text-[10px] text-purple font-medium">
-                      GIS · CAD · Remote Sensing
+                      GIS · MS GIS & RS · 6+ Yrs Exp
                     </p>
                   </div>
                 </div>
