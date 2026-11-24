@@ -99,7 +99,7 @@ const Hero = () => {
 
                 {/* Portrait Image */}
                 <img
-                  src="/ahtsham.png"
+                  src="/Profile_Picture.PNG"
                   alt="Muhammad Ali Awan - GIS - CAD - RS Specialist & Spatial Data Scientist"
                   className="relative z-10 w-[92%] h-[94%] object-contain object-bottom drop-shadow-[0_16px_28px_rgba(0,0,0,0.7)] transition-transform duration-500 group-hover:scale-[1.03]"
                 />
