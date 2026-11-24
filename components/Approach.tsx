@@ -15,9 +15,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="RS and GIS, Landscape Dynamics"
+          title="RS and GIS, for Infra & Utility"
           icon={<AceternityIcon order="RS and GIS" />}
-          des="Image Processing, Land Use Land Cover Change and impact assessment, Land Surface Temperature Dynamics, Floods impact assessment."
+          des="Image Processing, Land Use Land Cover Change and impact assessment, Infrastructure Mapping, CAD - BIM Integration."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
