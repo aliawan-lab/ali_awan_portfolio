@@ -555,12 +555,12 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Research Assistant",
+    title: "GIS Analyst",
     subtitle:
-      "(National University of Sciences and Technology, Islamabad · Jan 2023 - Dec 2023)",
-    desc: "Mapped extreme weather events (floods, landslides, and heatwaves) using remote sensing and artificial intelligence techniques. Performed numerical modeling and simulations for coastal inundation vulnerability and flood hazard evaluations.",
+      "(Leaf Global Environment Services – Jeddah, Saudi Arabia · June 2024 - August 2026)",
+    desc: "Integrated satellite imagery, field coordinates and multi-source spatial datasets into environmental baseline databases supporting EIA studies and environmental assessments. Performed environmental sensitivity, terrain and constraint modelling to identify protected habitats, hazardous terrain and restricted development zones. Conducted runoff modelling, habitat fragmentation analysis and MCDA-based site suitability assessments to optimize infrastructure routes. Analysed satellite imagery and historical LULC data to assess land-use change, vegetation health, urban expansion and long-term environmental impacts. Delivered validated spatial datasets, optimized geodatabases, publication-ready maps and interactive Web GIS applications while supporting regulatory compliance, client coordination and post-construction environmental monitoring.",
     className: "md:col-span-2",
-    thumbnail: "/nust.png",
+    thumbnail: "/leaf.png",
   },
   {
     id: 3,
