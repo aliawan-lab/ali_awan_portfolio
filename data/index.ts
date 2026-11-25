@@ -447,8 +447,8 @@ export const companies = [
   },
   {
     id: 4,
-    name: "OpenLayers",
-    img: "/ol.png",
+    name: "AutoCAD",
+    img: "/autocad.png",
     nameImg: "/ol.svg",
   },
   {
