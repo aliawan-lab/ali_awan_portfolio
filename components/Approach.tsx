@@ -58,8 +58,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Spatial Data Science, GIS Development"
-          icon={<AceternityIcon order="GIS Dev" />}
-          des="Modern GIS (Programming Languages such as python (pandas, pytorch, yolo, geopandas, hypercoast, hyriver, geemap, leafmap, gee python api), javascript (leaflet, openlayers, arcgis js api, mapbox, react/next js), asp.net"
+          icon={<AceternityIcon order="GIS Development" />}
+          des="Modern GIS (Programming Languages such as python (pandas, yolo, geopandas, hypercoast, hyriver, geemap, leafmap, gee python api), javascript (leaflet, openlayers, arcgis js api, mapbox, react/next js), asp.net"
         >
           <CanvasRevealEffect
             animationSpeed={3}
