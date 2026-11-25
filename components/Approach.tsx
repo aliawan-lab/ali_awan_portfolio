@@ -37,9 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Natural hazards and disasters impact assessment and mitigation"
+          title="Geodatabase Management for Web GIS Applications"
           icon={<AceternityIcon order="Geodatabase Management" />}
-          des="Computational Hydrology, Simulation and Geospatial Modelling, Floods, Landslides, droughts, temperature and other extreme weather events."
+          des="Geodatabase Design, , Quality Control, Database Maintenance, Data Synchronization, Topology Management."
         >
           <CanvasRevealEffect
             animationSpeed={3}
