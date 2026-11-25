@@ -565,7 +565,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Senior GIS Analyst",
-    subtitle: "(Government of Pakistan (Ministry of Defense) – Islamabad, Pakistan · August 2021 - April 2024)",
+    subtitle: "(Government of Pakistan (Ministry of Defense) – Islamabad, Pakistan  · August 2021 - April 2024)",
     desc: " Administered enterprise GIS databases and server-integrated geodatabases for centralized spatial data management, map publishing and web-based GIS access. Conducted SAR backscatter analysis, terrain characterization, watershed assessment, land surface monitoring, object identification and satellite/UAV data processing for corridor mapping, geological surveys and 3D terrain visualization. Conducted numerical modelling for disaster management, photogrammetry, slope mapping, terrain analysis and infrastructure mapping using SPOT, Pleiades, PRSS, RADAR and LiDAR datasets.Converted CAD drawings into GIS layers, performed spatial data validation and quality control, prepared routing datasets and structured SQL Server databases for web mapping integration using Python, SQL Server and HTML. Applied machine learning, remote sensing and predictive spatial analysis for feature classification and change detection while preparing GIS reports and PowerPoint presentations for senior leadership and providing technical GIS training to junior personnel.  ",
     className: "md:col-span-2",
     thumbnail: "/gop.png",
