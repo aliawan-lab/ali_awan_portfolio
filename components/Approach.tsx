@@ -27,7 +27,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Mineral Exploration and Geology"
-          icon={<AceternityIcon order="Economic Geology" />}
+          icon={<AceternityIcon order="Environment (Forestry)" />}
           des="Geological Mapping, Geochemistry, Remote Sensing, Mineral Exploration, Geophysics, GIS and Spatial Analysis."
         >
           <CanvasRevealEffect
