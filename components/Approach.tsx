@@ -17,7 +17,7 @@ const Approach = () => {
         <Card
           title="CAD/BIM/GIS, Infra & Utility Mapping"
           icon={<AceternityIcon order="CAD BIM GIS" />}
-          des="CAD Drawing convserion, BIM Modeling, ArcGIS Enterprise Geodatabase for Infra & Utility Mapping."
+          des="CAD Drawing convserion, BIM Modeling, ArcGIS Enterprise Geodatabase for Infrastructure project, Utility Network Mapping."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
