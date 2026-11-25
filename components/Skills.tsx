@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id="skills" className="py-20 w-full">
       <h1 className="heading">
-        Tools &amp; <span className="text-purple">technologies</span>
+        amp; <span className="text-purple">Technical Skills</span>
       </h1>
 
       <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6">
