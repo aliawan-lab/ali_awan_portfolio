@@ -548,7 +548,7 @@ export const workExperience = [
   {
     id: 1,
     title: "GIS-CAD Specialist ",
-    subtitle: "Hanmi Global MENA – Riyadh, Saudi Arabia (October 2026 - Present)",
+    subtitle: "Hanmi Global MENA – Riyadh, Saudi Arabia\n(October 2026 - Present)",
     desc: "Developing and Managing GIS database design, enterprise geodatabases and spatial data management for engineering and infrastructure projects. Delivering engineering, topographical, thematic and infrastructure mapping to support planning, design, construction and project monitoring. Integrating CAD–GIS and BIM–GIS data while maintaining coordinate accuracy, georeferencing, geometry and attribute integrity. Performing GIS data quality control and validation of contractor submissions while coordinating with clients, survey teams and engineering departments to ensure data compliance, resolve discrepancies and meet project standards. Producing standardized GIS deliverables, optimized spatial datasets and professional map visualizations aligned with client requirements and project objectives.",
     className: "md:col-span-2",
     thumbnail: "/hanmi.png",
@@ -557,7 +557,7 @@ export const workExperience = [
     id: 2,
     title: "GIS Analyst",
     subtitle:
-      "Leaf Global Environmental Services – Jeddah, Saudi Arabia (June 2024 - August 2026)",
+      "Leaf Global Environmental Services – Jeddah, Saudi Arabia\n(June 2024 - August 2026)",
     desc: "Integrated satellite imagery, field coordinates and multi-source spatial datasets into environmental baseline databases supporting EIA studies and environmental assessments. Performed environmental sensitivity, terrain and constraint modelling to identify protected habitats, hazardous terrain and restricted development zones. Conducted runoff modelling, habitat fragmentation analysis and MCDA-based site suitability assessments to optimize infrastructure routes. Analysed satellite imagery and historical LULC data to assess land-use change, vegetation health, urban expansion and long-term environmental impacts. Delivered validated spatial datasets, optimized geodatabases, publication-ready maps and interactive Web GIS applications while supporting regulatory compliance, client coordination and post-construction environmental monitoring.",
     className: "md:col-span-2",
     thumbnail: "/leaf.png",
@@ -565,7 +565,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Senior GIS Analyst",
-    subtitle: "Government of Pakistan (Ministry of Defense) – Islamabad, Pakistan (August 2021 - April 2024)",
+    subtitle: "Government of Pakistan (Ministry of Defense) – Islamabad, Pakistan\n(August 2021 - April 2024)",
     desc: " Administered enterprise GIS databases and server-integrated geodatabases for centralized spatial data management, map publishing and web-based GIS access. Conducted SAR backscatter analysis, terrain characterization, watershed assessment, land surface monitoring, object identification and satellite/UAV data processing for corridor mapping, geological surveys and 3D terrain visualization. Conducted numerical modelling for disaster management, photogrammetry, slope mapping, terrain analysis and infrastructure mapping using SPOT, Pleiades, PRSS, RADAR and LiDAR datasets.Converted CAD drawings into GIS layers, performed spatial data validation and quality control, prepared routing datasets and structured SQL Server databases for web mapping integration using Python, SQL Server and HTML. Applied machine learning, remote sensing and predictive spatial analysis for feature classification and change detection while preparing GIS reports and PowerPoint presentations for senior leadership and providing technical GIS training to junior personnel.  ",
     className: "md:col-span-2",
     thumbnail: "/gop.png",
@@ -574,7 +574,7 @@ export const workExperience = [
     id: 4,
     title: "Assistant GIS Analyst (Urban Planner)",
     subtitle:
-      "PropSure Digital Solution (Graana.com) – Islamabad, Pakistan (September 2020 - July 2021)",
+      "PropSure Digital Solution (Graana.com) – Islamabad, Pakistan\n(September 2020 - July 2021)",
     desc: "Performed urban GIS analysis, geospatial database management, spatial data processing, parcel mapping, attribute management and road network validation to support urban planning, infrastructure development, land-use assessment and Web GIS applications. Prepared and validated spatial datasets through georeferencing, image classification, topology checks, coordinate accuracy assessment and raster/vector processing. Integrated parcel boundaries, plot attributes and land-use information into interactive web maps while ensuring data integrity, accurate search and retrieval and reliable road network connectivity.",
     className: "md:col-span-2",
     thumbnail: "/prop.png",
