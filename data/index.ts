@@ -557,18 +557,18 @@ export const workExperience = [
     id: 2,
     title: "GIS Analyst",
     subtitle:
-      "(Leaf Global Environment Services – Jeddah, Saudi Arabia · June 2024 - August 2026)",
+      "(Leaf Global Environmental Services – Jeddah, Saudi Arabia · June 2024 - August 2026)",
     desc: "Integrated satellite imagery, field coordinates and multi-source spatial datasets into environmental baseline databases supporting EIA studies and environmental assessments. Performed environmental sensitivity, terrain and constraint modelling to identify protected habitats, hazardous terrain and restricted development zones. Conducted runoff modelling, habitat fragmentation analysis and MCDA-based site suitability assessments to optimize infrastructure routes. Analysed satellite imagery and historical LULC data to assess land-use change, vegetation health, urban expansion and long-term environmental impacts. Delivered validated spatial datasets, optimized geodatabases, publication-ready maps and interactive Web GIS applications while supporting regulatory compliance, client coordination and post-construction environmental monitoring.",
     className: "md:col-span-2",
     thumbnail: "/leaf.png",
   },
   {
     id: 3,
-    title: "Junior Geologist | Remote Sensing Analyst",
-    subtitle: "(Chinar Mineral Processing Mills · Apr 2020 - May 2022)",
-    desc: "Identified and evaluated exploration opportunities across small- and large-scale deposits, including Pakistan's largest placer gold mining project, developing and executing exploration programs through successive project stages. Integrated geophysical, geochemical, and geological datasets using Bruker XRF S1 Titan, Horiba LA350 Particle Size Analyzer, and Konica Minolta Spectrophotometer CM 600D for sample characterization and grade assessment. Explored polymetallic (Cu-Pb-Ag-Au) deposits at Gilgit Kargah, chromite deposits at Allai and Sapat Complex, lead-antimony deposits in Chitral, and rare earth element enrichment in carbonatite-alkaline igneous complexes. Assessed placer gold deposits along the Gilgit (0.5-1 g/t) and Indus (2-4 g/t) Rivers, and structurally controlled quartz veins bearing Pb-Sb-Au-Ag in the Chitral Complex.",
+    title: "Senior GIS Analyst",
+    subtitle: "(Government of Pakistan (Ministry of Defense) – Islamabad, Pakistan · August 2021 - April 2024)",
+    desc: " Administered enterprise GIS databases and server-integrated geodatabases for centralized spatial data management, map publishing and web-based GIS access. Conducted SAR backscatter analysis, terrain characterization, watershed assessment, land surface monitoring, object identification and satellite/UAV data processing for corridor mapping, geological surveys and 3D terrain visualization. Conducted numerical modelling for disaster management, photogrammetry, slope mapping, terrain analysis and infrastructure mapping using SPOT, Pleiades, PRSS, RADAR and LiDAR datasets.Converted CAD drawings into GIS layers, performed spatial data validation and quality control, prepared routing datasets and structured SQL Server databases for web mapping integration using Python, SQL Server and HTML. Applied machine learning, remote sensing and predictive spatial analysis for feature classification and change detection while preparing GIS reports and PowerPoint presentations for senior leadership and providing technical GIS training to junior personnel.  ",
     className: "md:col-span-2",
-    thumbnail: "/chinar.png",
+    thumbnail: "/gop.png",
   },
   {
     id: 4,
