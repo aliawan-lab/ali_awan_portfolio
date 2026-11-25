@@ -547,9 +547,9 @@ export const MyEducation = [
 export const workExperience = [
   {
     id: 1,
-    title: "Assistant Research Officer",
-    subtitle: "(Government of Pakistan - Ministry of Defense · Jan 2024 - Present)",
-    desc: "Numerical modeling for disaster management, photogrammetry, slope mapping, terrain analysis, and infrastructure mapping using SPOT, Pleiades, PRSS, RADAR, and LIDAR datasets. Conducted drone and land surveys for advanced hydrological modelling and post-landslide/flood impact assessment. Led development of web applications (Flood Monitoring, Spatial Data Analytics, Object Detection, and AI Agents Dashboards) for geospatial data analysis and visualization.",
+    title: "GIS-CAD Specialist ",
+    subtitle: "(Hanmi Global MENA – Riyadh, Saudi Arabia · October 2026 - Present)",
+    desc: "Specializing in GIS database design, enterprise geodatabases and spatial data management for engineering and infrastructure projects. Delivering engineering, topographical, thematic and infrastructure mapping to support planning, design, construction and project monitoring. Integrating CAD–GIS and BIM–GIS data while maintaining coordinate accuracy, georeferencing, geometry and attribute integrity. Performing GIS data quality control and validation of contractor submissions while coordinating with clients, survey teams and engineering departments to ensure data compliance, resolve discrepancies and meet project standards. Producing standardized GIS deliverables, optimized spatial datasets and professional map visualizations aligned with client requirements and project objectives.",
     className: "md:col-span-2",
     thumbnail: "/gop.png",
   },
