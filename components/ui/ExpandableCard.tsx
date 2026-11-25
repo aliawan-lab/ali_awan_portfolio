@@ -404,7 +404,7 @@ export function ExpandableCard({
                     </motion.h3>
                     <motion.p
                       layoutId={`description-${card.subtitle}-${id}`}
-                      className="text-white-200 text-sm mt-1 line-clamp-3"
+                      className="text-white-200 text-sm mt-1 line-clamp-3 whitespace-pre-line"
                     >
                       {card.subtitle}
                     </motion.p>
