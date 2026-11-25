@@ -572,12 +572,12 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Remote Sensing and GIS Intern",
+    title: "Assistant GIS Analyst (Urban Planner)",
     subtitle:
-      "(Pakistan Council of Research in Water Resources · Jan 2021 - Aug 2021)",
-    desc: "Identified groundwater potential zones using GIS/Remote Sensing techniques and AHP. Conducted water quality testing, surveying, and mapping for environmental assessments, and prepared comprehensive reports based on survey findings and analysis.",
+      "(PropSure Digital Solution (Graana.com) – Islamabad, Pakistan · September 2020 - July 2021)",
+    desc: "Performed urban GIS analysis, geospatial database management, spatial data processing, parcel mapping, attribute management and road network validation to support urban planning, infrastructure development, land-use assessment and Web GIS applications. Prepared and validated spatial datasets through georeferencing, image classification, topology checks, coordinate accuracy assessment and raster/vector processing. Integrated parcel boundaries, plot attributes and land-use information into interactive web maps while ensuring data integrity, accurate search and retrieval and reliable road network connectivity.",
     className: "md:col-span-2",
-    thumbnail: "/pcrwr.png",
+    thumbnail: "/prop.png",
   },
 ];
 
