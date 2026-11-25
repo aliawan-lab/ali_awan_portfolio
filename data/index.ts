@@ -551,7 +551,7 @@ export const workExperience = [
     subtitle: "(Hanmi Global MENA – Riyadh, Saudi Arabia · October 2026 - Present)",
     desc: "Specializing in GIS database design, enterprise geodatabases and spatial data management for engineering and infrastructure projects. Delivering engineering, topographical, thematic and infrastructure mapping to support planning, design, construction and project monitoring. Integrating CAD–GIS and BIM–GIS data while maintaining coordinate accuracy, georeferencing, geometry and attribute integrity. Performing GIS data quality control and validation of contractor submissions while coordinating with clients, survey teams and engineering departments to ensure data compliance, resolve discrepancies and meet project standards. Producing standardized GIS deliverables, optimized spatial datasets and professional map visualizations aligned with client requirements and project objectives.",
     className: "md:col-span-2",
-    thumbnail: "/gop.png",
+    thumbnail: "/hanmi.png",
   },
   {
     id: 2,
