@@ -459,14 +459,14 @@ export const companies = [
   },
   {
     id: 6,
-    name: "Python",
-    img: "/python.png",
+    name: "SQL Server",
+    img: "/sql.png",
     nameImg: "/python.svg",
   },
   {
     id: 7,
-    name: "JavaScript",
-    img: "/js.png",
+    name: "SNAP",
+    img: "/snap1.png",
     nameImg: "/js.svg",
   },
   {
@@ -483,20 +483,20 @@ export const companies = [
   },
   {
     id: 10,
-    name: "Leaflet",
-    img: "/l.png",
+    name: "GitHub",
+    img: "/github.png",
     nameImg: "/leaflet.svg",
   },
   {
     id: 11,
-    name: "GeoServer",
-    img: "/geoserver.png",
+    name: "Geodatabase",
+    img: "/geodatabase.png",
     nameImg: "/geoserver.svg",
   },
   {
     id: 12,
-    name: "React",
-    img: "/re.svg",
+    name: "ArcGIS Enterprise",
+    img: "/arcgis-enterprise.png",
     nameImg: "/react.svg",
   },
   {
