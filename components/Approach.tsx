@@ -15,9 +15,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="CAD/BIM/GIS, for Infra & Utility"
+          title="CAD/BIM/GIS, Infra & Utility Mapping"
           icon={<AceternityIcon order="CAD BIM GIS" />}
-          des="Drawing convserion, BIM Modeling, Enterprise Geodatabase for Infra & Utility Mapping."
+          des="CAD Drawing convserion, BIM Modeling, ArcGIS Enterprise Geodatabase for Infra & Utility Mapping."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Mineral Exploration and Geology"
+          title="Environmental Assessment  & Forest Management  "
           icon={<AceternityIcon order="Environment (Forestry)" />}
-          des="Geological Mapping, Geochemistry, Remote Sensing, Mineral Exploration, Geophysics, GIS and Spatial Analysis."
+          des="GIS-based EIA, Forest Cover Estimation, Predictive LULC Modelling, Topographic Analysis, Site Suitability Analysis ."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
