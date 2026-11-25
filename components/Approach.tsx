@@ -17,7 +17,7 @@ const Approach = () => {
         <Card
           title="CAD/BIM/GIS, Infra & Utility Mapping"
           icon={<AceternityIcon order="CAD BIM (GIS)" />}
-          des="CAD Drawing convserion, BIM Modeling, ArcGIS Enterprise Geodatabase for Infrastructure project & Utility Network Mapping."
+          des="CAD Drawing convserion, BIM Modeling, Geodatabase Management for Infrastructure project & Utility Network Mapping."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,7 +28,7 @@ const Approach = () => {
         <Card
           title="Environmental Assessment  & Forest Management  "
           icon={<AceternityIcon order="Environment (Forestry)" />}
-          des="GIS-based EIA, Forest Cover Estimation, Predictive LULC Modelling, Topographic Analysis, Site Suitability Analysis ."
+          des="GIS-based EIA, Forest Cover Estimation, Predictive LULC Modelling, Topographic Analysis, Site Suitability Analysis, Natural Hazard Mapping ."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
