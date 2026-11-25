@@ -38,7 +38,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Natural hazards and disasters impact assessment and mitigation"
-          icon={<AceternityIcon order="Natural Hazards" />}
+          icon={<AceternityIcon order="Geodatabase" />}
           des="Computational Hydrology, Simulation and Geospatial Modelling, Floods, Landslides, droughts, temperature and other extreme weather events."
         >
           <CanvasRevealEffect
