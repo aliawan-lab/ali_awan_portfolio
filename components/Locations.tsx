@@ -176,6 +176,7 @@ const Locations = () => {
       <p className="text-center text-white-200 text-sm md:text-base mt-3 max-w-2xl mx-auto">
         An interactive topographic map showcasing contribution locations across Borders,
          spanning my professional, academic, research and field experiences.
+      </p>
 
       <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mt-6">
         {CATEGORIES.map((category) => {
