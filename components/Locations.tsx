@@ -32,7 +32,7 @@ const locations: Site[] = [
     lat: 33.6426,
     lng: 72.9917,
     category: "Career & Academic",
-    desc: "MS Remote Sensing & GIS · Research Assistant, IGIS NUST (2020 - 2022)",
+    desc: "MS Remote Sensing & GIS · IGIS NUST (2020 - 2022)",
   },
   {
     name: "Galaxy Space, Beijing, China",
