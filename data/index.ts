@@ -529,18 +529,18 @@ export const MyEducation = [
   {
     id: 1,
     title: "MS Remote Sensing and GIS",
-    subtitle: "(2021 - 2023)",
+    subtitle: "(2020 - 2022)",
     desc: "National University of Sciences and Technology, Islamabad, Pakistan",
     className: "md:col-span-2",
     thumbnail: "/nust.png",
   },
   {
     id: 2,
-    title: "BS Geology",
-    subtitle: "(2016 - 2020)",
-    desc: "The University of Azad Jammu and Kashmir, Muzaffarabad, Pakistan",
+    title: "BS Forestry",
+    subtitle: "(2015 - 2019)",
+    desc: "PMAS - Arid Agriculture University Rawalpindi, Pakistan",
     className: "md:col-span-2",
-    thumbnail: "/uajk.png",
+    thumbnail: "/pmas.png",
   },
 ];
 
