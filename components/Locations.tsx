@@ -2,165 +2,138 @@
 
 import React, { useState, useMemo } from "react";
 import dynamic from "next/dynamic";
-import type { GeoLocation, LocationCategory } from "@/components/ui/LeafletMap";
+import type { GeoLocation } from "@/components/ui/LeafletMap";
 
 const LeafletMap = dynamic(() => import("@/components/ui/LeafletMap"), {
   ssr: false,
 });
 
-const locations: GeoLocation[] = [
+type SiteCategory = "Career & Academic" | "Research" | "Field Visits";
+
+type Site = {
+  name: string;
+  lat: number;
+  lng: number;
+  category: SiteCategory;
+  desc: string;
+};
+
+const locations: Site[] = [
+  // ---------------- Career & Academic (7) ----------------
   {
-    name: "Rawalpindi",
-    lat: 33.6007,
-    lng: 73.0679,
+    name: "PMAS-Arid Agriculture University, Rawalpindi",
+    lat: 33.6458,
+    lng: 73.0828,
     category: "Career & Academic",
-    desc: "Assistant Research Officer, Government of Pakistan (Jan 2024 - Present)",
+    desc: "BS Forestry (2015 - 2019)",
   },
   {
     name: "NUST, Islamabad",
     lat: 33.6426,
     lng: 72.9917,
     category: "Career & Academic",
-    desc: "MS Remote Sensing & GIS · Research Assistant, IGIS NUST (2021 - 2023)",
+    desc: "MS Remote Sensing & GIS · Research Assistant, IGIS NUST (2020 - 2022)",
   },
   {
-    name: "Muzaffarabad, Azad Kashmir",
-    lat: 34.37,
-    lng: 73.4711,
+    name: "Galaxy Space, Beijing, China",
+    lat: 39.984,
+    lng: 116.31,
     category: "Career & Academic",
-    desc: "Remote Sensing & GIS Intern, PCRWR (Jan 2021 - Aug 2021)",
+    desc: "Synthetic Aperture Radar Analysis and AI Applications",
   },
   {
-    name: "Chinar Mineral Processing Mills",
-    lat: 30.1798,
-    lng: 66.975,
+    name: "PropSure Digital Solution, Islamabad",
+    lat: 33.6785,
+    lng: 73.014,
     category: "Career & Academic",
-    desc: "Junior Geologist | Remote Sensing Analyst (Apr 2020 - May 2022)",
+    desc: "Assistant GIS Analyst (Urban Planner) (3 Sep 2020 - 10 Jul 2021)",
   },
   {
-    name: "University of Azad Jammu and Kashmir",
-    lat: 34.374,
-    lng: 73.475,
+    name: "Government of Pakistan (MOD), Rawalpindi",
+    lat: 33.596,
+    lng: 73.052,
     category: "Career & Academic",
-    desc: "BS Geology (2016 - 2020)",
+    desc: "Senior GIS Analyst (1 Aug 2021 - 20 Apr 2024)",
   },
   {
-    name: "Kargah, Gilgit",
-    lat: 35.8833,
-    lng: 74.2167,
-    category: "Mineral Exploration",
-    desc: "Polymetallic (Cu-Pb-Ag-Au) deposit exploration & geochemical sampling",
+    name: "Leaf Global Environmental Services, Jeddah, Saudi Arabia",
+    lat: 21.5433,
+    lng: 39.1728,
+    category: "Career & Academic",
+    desc: "GIS Analyst (15 Jun 2024 - 31 Aug 2026)",
   },
   {
-    name: "Allai, Battagram",
-    lat: 34.7833,
-    lng: 73.0167,
-    category: "Mineral Exploration",
-    desc: "Chromite deposit exploration & structural mapping",
+    name: "Hanmi Global MENA, Riyadh, Saudi Arabia",
+    lat: 24.7114,
+    lng: 46.6744,
+    category: "Career & Academic",
+    desc: "GIS-CAD Specialist (1 Oct 2026 - Present)",
+  },
+
+  // ---------------- Research (2) ----------------
+  {
+    name: "Abbottabad Division",
+    lat: 34.1688,
+    lng: 73.2215,
+    category: "Research",
+    desc: "Modeling Deforestation Trends",
   },
   {
-    name: "Sapat Complex, Kohistan",
-    lat: 35.2667,
-    lng: 73.25,
-    category: "Mineral Exploration",
-    desc: "Chromite deposit exploration (Sapat ultramafic complex)",
+    name: "Lahore Division",
+    lat: 31.5204,
+    lng: 74.3587,
+    category: "Research",
+    desc: "PM10 & PM2.5 Impact on Population",
+  },
+
+  // ---------------- Field Visits (5) ----------------
+  {
+    name: "Murree Forest Academy",
+    lat: 33.907,
+    lng: 73.3943,
+    category: "Field Visits",
+    desc: "Forest Evaluation, Identify 3D Trees",
   },
   {
-    name: "Indus River (Kohistan stretch)",
-    lat: 35.4,
-    lng: 73.0,
-    category: "Mineral Exploration",
-    desc: "Placer gold assessment (2-4 g/t grade characterization)",
+    name: "Naran Forest",
+    lat: 34.9055,
+    lng: 73.6507,
+    category: "Field Visits",
+    desc: "Forest Inventory, Management Practices, Density Measurement",
   },
   {
-    name: "Chitral",
-    lat: 35.8518,
-    lng: 71.7862,
-    category: "Mineral Exploration",
-    desc: "Lead-antimony & structurally controlled Pb-Sb-Au-Ag quartz vein exploration",
+    name: "Changa Manga Forest, Kasur, Punjab",
+    lat: 31.087,
+    lng: 73.973,
+    category: "Field Visits",
+    desc: "Nursery Management, Tree Identification, Lab Testing",
   },
   {
-    name: "Astore",
-    lat: 35.3411,
-    lng: 74.9006,
-    category: "Geological Fieldwork",
-    desc: "High-altitude geological & geospatial fieldwork site",
-  },
-  {
-    name: "Deosai Plains",
-    lat: 34.8973,
-    lng: 75.4271,
-    category: "Geological Fieldwork",
-    desc: "Glaciological & geomorphological survey site",
+    name: "Nathiagali",
+    lat: 34.0714,
+    lng: 73.382,
+    category: "Field Visits",
+    desc: "Forest Fire Assessment, Linear Plantation BTP Survey",
   },
   {
     name: "Hunza Valley",
     lat: 36.3167,
     lng: 74.65,
-    category: "Geological Fieldwork",
-    desc: "Slope stability, debris flow & glacial hazard fieldwork site",
-  },
-  {
-    name: "Gilgit",
-    lat: 35.9208,
-    lng: 74.3144,
-    category: "Geological Fieldwork",
-    desc: "Placer gold (0.5-1 g/t) & regional geological survey site",
-  },
-  {
-    name: "Khunjerab Pass",
-    lat: 36.85,
-    lng: 75.4167,
-    category: "Geological Fieldwork",
-    desc: "Karakoram tectonic & alpine cryosphere observation site",
-  },
-  {
-    name: "Kotli, Azad Kashmir",
-    lat: 33.5165,
-    lng: 73.9033,
-    category: "Geological Fieldwork",
-    desc: "Sub-Himalayan stratigraphy & landslide susceptibility fieldwork",
-  },
-  {
-    name: "Mianwali (Salt Range)",
-    lat: 32.5854,
-    lng: 71.5327,
-    category: "Geological Fieldwork",
-    desc: "Classic Salt Range stratigraphic & structural geology fieldwork",
-  },
-  {
-    name: "Buner, KPK",
-    lat: 34.4833,
-    lng: 72.5667,
-    category: "Geological Fieldwork",
-    desc: "Carbonatite-alkaline igneous complex & marble exploration site",
-  },
-  {
-    name: "Swat, KPK",
-    lat: 34.7717,
-    lng: 72.3603,
-    category: "Geological Fieldwork",
-    desc: "Metamorphic belt & hydrological flood assessment site",
-  },
-  {
-    name: "Muslim Bagh, Balochistan",
-    lat: 30.9667,
-    lng: 68.1667,
-    category: "Mineral Exploration",
-    desc: "Muslim Bagh ophiolite complex & chromite deposit fieldwork",
+    category: "Field Visits",
+    desc: "Extinct Species Identification, Soil Condition Monitoring",
   },
 ];
 
-const CATEGORIES: ("All Sites" | LocationCategory)[] = [
+const CATEGORIES: ("All Sites" | SiteCategory)[] = [
   "All Sites",
   "Career & Academic",
-  "Mineral Exploration",
-  "Geological Fieldwork",
+  "Research",
+  "Field Visits",
 ];
 
 const Locations = () => {
   const [selectedCategory, setSelectedCategory] = useState<
-    "All Sites" | LocationCategory
+    "All Sites" | SiteCategory
   >("All Sites");
 
   const filteredLocations = useMemo(() => {
@@ -204,11 +177,10 @@ const Locations = () => {
       </div>
 
       <div className="mt-8">
-        <LeafletMap locations={filteredLocations} />
+        <LeafletMap locations={filteredLocations as unknown as GeoLocation[]} />
       </div>
     </div>
   );
 };
 
 export default Locations;
-
