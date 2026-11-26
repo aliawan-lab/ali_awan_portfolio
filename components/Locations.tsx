@@ -171,7 +171,7 @@ const Locations = () => {
   return (
     <div id="locations" className="py-20 w-full">
       <h1 className="heading">
-        &amp; <span className="text-purple">Contributions Across Geographies</span>
+         <span className="text-purple">Contributions Across Geographies</span>
       </h1>
       <p className="text-center text-white-200 text-sm md:text-base mt-3 max-w-2xl mx-auto">
         Interactive topographic view of 20+ geological surveys, mineral
