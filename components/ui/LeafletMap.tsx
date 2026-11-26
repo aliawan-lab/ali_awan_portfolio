@@ -13,6 +13,15 @@ L.Icon.Default.mergeOptions({
   shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
 });
 
+// Red map pin (inline SVG, no external image needed)
+const redPin = L.divIcon({
+  className: "",
+  html: `<svg xmlns="http://www.w3.org/2000/svg" width="30" height="42" viewBox="0 0 30 42"><path d="M15 0C6.7 0 0 6.7 0 15c0 11.2 15 27 15 27s15-15.8 15-27C30 6.7 23.3 0 15 0z" fill="#dc2626" stroke="#7f1d1d" stroke-width="1.5"/><circle cx="15" cy="15" r="5.5" fill="#ffffff"/></svg>`,
+  iconSize: [30, 42],
+  iconAnchor: [15, 42],
+  popupAnchor: [0, -38],
+});
+
 export type LocationCategory =
   | "Career & Academic"
   | "Research"
@@ -65,7 +74,11 @@ const LeafletMap = ({ locations }: { locations: GeoLocation[] }) => {
         />
         <FitToLocations locations={locations} />
         {locations.map((loc) => (
-          <Marker key={`${loc.name}-${loc.desc}`} position={[loc.lat, loc.lng]}>
+          <Marker
+            key={`${loc.name}-${loc.desc}`}
+            position={[loc.lat, loc.lng]}
+            icon={redPin}
+          >
             <Popup>
               <div className="min-w-[180px]">
                 {loc.photo && (
